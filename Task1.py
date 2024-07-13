@@ -20,5 +20,5 @@ def total_salary(path):
 
 # Приклад використання:
 
-# total, average = total_salary("Salary.txt")
+# total, average = total_salary("FilesForTasks\Salary.txt")
 # print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}") 

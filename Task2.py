@@ -15,11 +15,11 @@ def get_cats_info(path):
                 }
                 # Додавання словника до списку словників
                 cat_list.append(cat_dict)
-                
+
     except FileNotFoundError: # У випадку коли шлях не вірний, виводимо на екран повідомлення
         print("Такого файлу не існує, файл не був зчитаним")
     return cat_list
 
 # Приклад використання:
-# cats_info = get_cats_info("Cats.txt")
+# cats_info = get_cats_info("FilesForTasks\Cats.txt")
 # print(cats_info)
