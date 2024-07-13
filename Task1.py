@@ -2,7 +2,7 @@ def total_salary(path):
     sum = 0
     overall_workers = 0
     try:
-        with open(path) as file:
+        with open(path, mode="r", encoding="utf-8") as file:
             raw_string = file.read().replace("\n", ",") # Заміна перенесення рядку на кому, щоб далі ми могли виокремити цей те що між комами як окремий аргумент
             separated_string = raw_string.split(",") # Розділення рядку на аргументи по комі
             for argument in separated_string:
