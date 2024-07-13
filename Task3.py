@@ -26,7 +26,7 @@ def files_and_subdirs(directory, indent=""):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Використовуйте: python Task3.py </шлях/до/вашої/директорії>")
+        print("Використовуйте: python Task3.py </шлях/до/вашої/директорії!>")
         sys.exit(1)
 
     directory_path = sys.argv[1]
